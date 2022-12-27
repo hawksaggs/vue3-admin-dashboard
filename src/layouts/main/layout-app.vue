@@ -20,13 +20,33 @@
                 ></v-btn>
               </template>
 
-              <v-list>
+              <v-list min-width="200" class="list">
                 <v-list-item>
-                  Profile
+                  <v-list-item-title>
+                    <v-icon>mdi-account</v-icon>
+                    Profile
+                  </v-list-item-title>
                 </v-list-item>
 
                 <v-list-item>
-                  Setting
+                  <v-list-item-title>
+                    <v-icon>mdi-cog</v-icon>
+                    Setting
+                  </v-list-item-title>
+                </v-list-item>
+
+                <v-list-item>
+                  <v-list-item-title>
+                    <v-icon>mdi-run</v-icon>
+                    Activities
+                  </v-list-item-title>
+                </v-list-item>
+
+                <v-list-item>
+                  <v-list-item-title>
+                    <v-icon color="red">mdi-power</v-icon>
+                    <span class="text-red">Logout</span>
+                  </v-list-item-title>
                 </v-list-item>
               </v-list>
             </v-menu>
@@ -76,6 +96,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .list {
+    cursor: pointer;
+  }
 </style>
