@@ -4,16 +4,16 @@
       <titleBar class="mb"></titleBar>
       <v-row>
         <v-col cols="3">
-          <panelComponentVue></panelComponentVue>
+          <panelComponentVue icon="mdi-account" title="Admins" value="10"></panelComponentVue>
         </v-col>
         <v-col cols="3">
-          <panelComponentVue></panelComponentVue>
+          <panelComponentVue icon="mdi-cart" title="Products" value="30"></panelComponentVue>
         </v-col>
         <v-col cols="3">
-          <panelComponentVue></panelComponentVue>
+          <panelComponentVue icon="mdi-newspaper-variant" title="News" value="20"></panelComponentVue>
         </v-col>
         <v-col cols="3">
-          <panelComponentVue></panelComponentVue>
+          <panelComponentVue icon="mdi-earth" title="Visitors" value="1250"></panelComponentVue>
         </v-col>
       </v-row>
 
