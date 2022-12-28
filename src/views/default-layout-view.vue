@@ -3,11 +3,11 @@
     <v-container>
         <titlebarComponentVue class="mb"></titlebarComponentVue>
 
-        <contentExample class="mb"></contentExample>
+        <contentExample></contentExample>
 
         <v-row>
             <v-col cols="12">
-                <footerComponentVue></footerComponentVue>
+                <footerComponentVue class="bottom"></footerComponentVue>
             </v-col>
         </v-row>
     </v-container>
@@ -34,5 +34,10 @@ export default {
   .main-bg {
     background-color: rgb(227, 227, 221);
     height: 100%;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
   }
 </style>
