@@ -140,6 +140,180 @@ export default {
               title: 'Blank Page',
               icon: 'mdi-file',
               url: '/blank-page'
+            },
+            {
+              title: 'Components',
+              icon: 'mdi-view-dashboard-variant',
+              submenu: [
+                {
+                  title: 'Alert',
+                  icon: 'mdi-circle-small',
+                  url: '/alert'
+                },
+                {
+                  title: 'Article',
+                  icon: 'mdi-circle-small',
+                  url: '/article'
+                },
+                {
+                  title: 'Avatar',
+                  icon: 'mdi-circle-small',
+                  url: '/avatar'
+                },
+                {
+                  title: 'Badge',
+                  icon: 'mdi-circle-small',
+                  url: '/badge'
+                },
+                {
+                  title: 'Banner',
+                  icon: 'mdi-circle-small',
+                  url: '/banner'
+                },
+                {
+                  title: 'Calendar',
+                  icon: 'mdi-circle-small',
+                  url: '/calendar'
+                },
+                {
+                  title: 'Carousel',
+                  icon: 'mdi-circle-small',
+                  url: '/carousel'
+                },
+                {
+                  title: 'Chat Box',
+                  icon: 'mdi-circle-small',
+                  url: '/chat-box'
+                },
+                {
+                  title: 'Chart',
+                  icon: 'mdi-circle-small',
+                  url: '/chart'
+                },
+                {
+                  title: 'Color Picker',
+                  icon: 'mdi-circle-small',
+                  url: '/color-picker'
+                },
+                {
+                  title: 'Empty State',
+                  icon: 'mdi-circle-small',
+                  url: '/empty-state'
+                },
+                {
+                  title: 'Galery',
+                  icon: 'mdi-circle-small',
+                  url: '/galery'
+                },
+                {
+                  title: 'Pricing',
+                  icon: 'mdi-circle-small',
+                  url: '/pricing'
+                },
+                {
+                  title: 'Statistic',
+                  icon: 'mdi-circle-small',
+                  url: '/statistic'
+                },
+                {
+                  title: 'Tab',
+                  icon: 'mdi-circle-small',
+                  url: '/tab'
+                },
+                {
+                  title: 'Table',
+                  icon: 'mdi-circle-small',
+                  url: '/table'
+                },
+                {
+                  title: 'Timeline',
+                  icon: 'mdi-circle-small',
+                  url: '/timeline'
+                },
+                {
+                  title: 'User',
+                  icon: 'mdi-circle-small',
+                  url: '/user'
+                }
+              ]
+            },
+            {
+              title: 'Form',
+              icon: 'mdi-format-align-justify',
+              submenu: [
+                {
+                  title: 'Standard Form',
+                  icon: 'mdi-circle-small',
+                  url: '/form-standard'
+                },
+                {
+                  title: 'Advanced Form',
+                  icon: 'mdi-circle-small',
+                  url: '/form-advanced'
+                },
+                {
+                  title: 'Editor',
+                  icon: 'mdi-circle-small',
+                  url: '/editor'
+                },
+                {
+                  title: 'Validation',
+                  icon: 'mdi-circle-small',
+                  url: '/validation'
+                }
+              ]
+            },
+            {
+              title: 'Authorization',
+              icon: 'mdi-account-circle',
+              submenu: [
+                {
+                  title: 'Login',
+                  icon: 'mdi-circle-small',
+                  url: '/login'
+                },
+                {
+                  title: 'Registration',
+                  icon: 'mdi-circle-small',
+                  url: '/registration'
+                },
+                {
+                  title: 'Forgot Password',
+                  icon: 'mdi-circle-small',
+                  url: '/forgot-password'
+                },
+                {
+                  title: 'Reset Password',
+                  icon: 'mdi-circle-small',
+                  url: '/reset-password'
+                }
+              ]
+            },
+            {
+              title: 'Errors',
+              icon: 'mdi-alert-circle',
+              submenu: [
+                {
+                  title: '403',
+                  icon: 'mdi-circle-small',
+                  url: '/403'
+                },
+                {
+                  title: '404',
+                  icon: 'mdi-circle-small',
+                  url: '/404'
+                },
+                {
+                  title: '500',
+                  icon: 'mdi-circle-small',
+                  url: '/500'
+                },
+                {
+                  title: '503',
+                  icon: 'mdi-circle-small',
+                  url: '/503'
+                }
+              ]
             }
           ]
         }

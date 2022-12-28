@@ -1,14 +1,14 @@
 <template>
   <v-card>
     <v-row>
-        <v-col cols="9">
+        <v-col cols="cols">
             <v-card-text class="text-caption">
                 Make with <v-icon>mdi-heart</v-icon> by <b>Swing Developer</b>
             </v-card-text>
         </v-col>
 
-        <v-col cols="3">
-            <v-card-text>
+        <v-col cols="cols">
+            <v-card-text class="float-right">
                 &copy; Swing 2023
             </v-card-text>
         </v-col>
@@ -22,6 +22,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.float-right {
+    float: right;
+}
 </style>

@@ -3,41 +3,41 @@
     <v-container>
       <titleBar class="mb"></titleBar>
       <v-row>
-        <v-col cols="3">
+        <v-col cols="cols">
           <panelComponentVue icon="mdi-account" title="Admins" value="10"></panelComponentVue>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="cols">
           <panelComponentVue icon="mdi-cart" title="Products" value="30"></panelComponentVue>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="cols">
           <panelComponentVue icon="mdi-newspaper-variant" title="News" value="20"></panelComponentVue>
         </v-col>
-        <v-col cols="3">
+        <v-col cols="cols">
           <panelComponentVue icon="mdi-earth" title="Visitors" value="1250"></panelComponentVue>
         </v-col>
       </v-row>
 
       <v-row>
-        <v-col cols="8">
+        <v-col cols="cols">
           <chartComponentVue></chartComponentVue>
         </v-col>
-        <v-col cols="4">
+        <v-col cols="cols">
           <popularProductComponentVue></popularProductComponentVue>
         </v-col>
       </v-row>
 
       <v-row>
-        <v-col cols="6">
+        <v-col cols="cols">
           <trafficComponentVue></trafficComponentVue>
         </v-col>
 
-        <v-col cols="6">
+        <v-col cols="cols">
           <activityComponent></activityComponent>
         </v-col>
       </v-row>
 
       <v-row>
-        <v-col cols="12">
+        <v-col cols="cols">
           <footerComponent></footerComponent>
         </v-col>
       </v-row>
@@ -72,5 +72,6 @@ export default {
   }
   .main-bg {
     background-color: rgb(227, 227, 221);
+    height: 100%;
   }
 </style>
