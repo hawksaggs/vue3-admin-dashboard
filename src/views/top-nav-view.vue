@@ -1,19 +1,29 @@
 <template>
   <div class="main-bg">
     <v-container>
-        <titlebarTopNavComponentVue class="mb"></titlebarTopNavComponentVue>
-        <contentExampleComponentVue></contentExampleComponentVue>
+        
+        <topNavigationComponentVue></topNavigationComponentVue>
+
+        <style1></style1>
+
+        <v-row>
+            <v-col cols="12">
+                <footerComponentVue class="bottom"></footerComponentVue>
+            </v-col>
+        </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
-import titlebarTopNavComponentVue from '@/components/top-nav/titlebar-top-nav-component.vue';
-import contentExampleComponentVue from '@/components/default-layout/content-example-component.vue';
+import topNavigationComponentVue from '@/components/top-nav/top-navigation-component.vue';
+import footerComponentVue from '@/components/footer/footer-component.vue';
+import style1 from '@/components/top-nav/style1-component.vue';
 export default {
     components: {
-        titlebarTopNavComponentVue,
-        contentExampleComponentVue
+        footerComponentVue,
+        topNavigationComponentVue,
+        style1,
     }
 }
 </script>
@@ -25,5 +35,10 @@ export default {
   .main-bg {
     background-color: rgb(227, 227, 221);
     height: 100%;
+  }
+  .bottom {
+    position: absolute;
+    bottom: 0;
+    width: 70%;
   }
 </style>
