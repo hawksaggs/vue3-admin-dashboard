@@ -56,9 +56,27 @@
 
         <v-divider></v-divider>
 
-        <v-list density="compact" nav>
-          <v-list-item prepend-icon="mdi-view-dashboard" title="Home" value="home"></v-list-item>
-          <v-list-item prepend-icon="mdi-forum" title="About" value="about"></v-list-item>
+        <v-list density="compact" nav v-for="(item, i) in menu" :key="i">
+          <v-list-item :prepend-icon="item.icon" :title="item.title" :to="item.url" v-if="!item.submenu"></v-list-item>
+
+          <v-list-group v-else :key="i">
+            <template v-slot:activator="{ props }">
+              <v-list-item
+                v-bind="props"
+                :prepend-icon="item.icon"
+                :title="item.title"
+              ></v-list-item>
+            </template>
+
+            <v-list-item
+                class="item_menu"
+                v-for="(sub, idx) in item.submenu"
+                :key="idx"
+                :title="sub.title"
+                :prepend-icon="sub.icon"
+                :to="sub.url"
+              ></v-list-item>
+          </v-list-group>
         </v-list>
     </v-navigation-drawer>
 
@@ -91,6 +109,39 @@ export default {
     data() {
         return {
           drawer: null,
+          menu: [
+            {
+              title: 'Dashboard',
+              icon: 'mdi-view-dashboard',
+              url: '/'
+            },
+            {
+              title: 'Layout',
+              icon: 'mdi-page-layout-header-footer',
+              submenu: [
+                {
+                  title: 'Default Layout',
+                  icon: 'mdi-circle-small',
+                  url: '/default-layout'
+                },
+                {
+                  title: 'Top Navigation',
+                  icon: 'mdi-circle-small',
+                  url: '/top-nav'
+                },
+                {
+                  title: 'Bottom Navigation',
+                  icon: 'mdi-circle-small',
+                  url: '/bottom-nav'
+                }
+              ]
+            },
+            {
+              title: 'Blank Page',
+              icon: 'mdi-file',
+              url: '/blank-page'
+            }
+          ]
         }
     }
 }
@@ -100,4 +151,10 @@ export default {
   .list {
     cursor: pointer;
   }
+
+  .item_menu {
+    padding-left: 0px;
+    margin-left: -25px;
+  }
+
 </style>
