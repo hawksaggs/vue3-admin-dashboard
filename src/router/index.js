@@ -6,6 +6,7 @@ import topNavRouter from './page/top-nav-router.js';
 import bottomNav from './page/bottom-nav.js';
 import blankPageRouter from './page/blank-page-router.js';
 import alertRouter from './page/alert-router.js';
+import articleRouter from './page/article-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -13,7 +14,8 @@ const routes = [
   ...topNavRouter,
   ...bottomNav,
   ...blankPageRouter,
-  ...alertRouter
+  ...alertRouter,
+  ...articleRouter
 ]
 
 const router = createRouter({
