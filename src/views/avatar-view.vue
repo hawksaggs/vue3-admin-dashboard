@@ -1,12 +1,12 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titlebarAvatarComponentVue class="mb"></titlebarAvatarComponentVue>
+      <titleBar class="mb"></titleBar>
       <avatarComponent class="mb"></avatarComponent>
       <avatarInitial class="mb"></avatarInitial>
 
       <v-row>
-        <v-col cols="12">
+        <v-col cols="cols">
           <footerComponentVue></footerComponentVue>
         </v-col>
       </v-row>
@@ -15,13 +15,13 @@
 </template>
 
 <script>
-import titlebarAvatarComponentVue from "@/components/avatar/titlebar-avatar-component.vue";
+import titleBar from "@/components/titlebar/titlebar-component.vue";
 import avatarComponent from "@/components/avatar/avatar-component.vue";
 import avatarInitial from "@/components/avatar/avatar-initial-component.vue";
 import footerComponentVue from "@/components/footer/footer-component.vue";
 export default {
   components: {
-    titlebarAvatarComponentVue,
+    titleBar,
     avatarComponent,
     avatarInitial,
     footerComponentVue,
