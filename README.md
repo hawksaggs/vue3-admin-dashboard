@@ -17,3 +17,67 @@ Swing is build using these following frameworks:
 
 ### License
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
+### Features
+Here are some features of swing UI:
+- Dashboard
+- <details> <summary>Layout</summary> 
+
+
+    - Default Layout
+    - Top Navigation
+    - Bottom Navigation
+ </details>
+
+ - Blank Page
+
+- <details> <summary>Components</summary> 
+  
+    - Alert
+    - Article
+    - Avatar
+    - Badge
+    - Banner
+    - Calendar
+    - Carousel
+    - Chat Box
+    - Chart
+    - Color Picker
+    - Empty State
+    - Galery
+    - Pricing
+    - Statistic
+    - Tab
+    - Table
+    - Timeline
+    - User
+  </details>
+- <details> <summary>Form</summary> 
+
+    - Standard Form
+    - Advanced Form
+    - Editor
+    - Validation
+  </details>
+
+- <details> <summary>Authorization</summary> 
+
+    - Login
+    - Registration
+    - Forget Password
+    - Reset Password
+  </details>
+
+- <details> <summary>Errors</summary> 
+
+    - 403
+    - 404
+    - 500
+    - 503
+  </details>
+
+### Contibutes
+To join and contributes to this project, you can read our <a href="https://github.com/aliftech/swing/blob/master/CONTRIBUTING.md">contributing.md</a>
+
+### Instalation
+Here is the instalation guide of swing UI <a href="https://github.com/aliftech/swing/blob/master/READMEVUE.md">Instalation.</a>
