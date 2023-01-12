@@ -25,7 +25,7 @@ Swing is build using these following frameworks:
 [![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 ### Features
-Here are some features of swing UI:
+Here are some features of swing UI 👇:
 - Dashboard
 - <details> <summary>Layout</summary> 
 
@@ -83,10 +83,10 @@ Here are some features of swing UI:
   </details>
 
 ### Contibutes
-To join and contributes to this project, you can read our <a href="https://github.com/aliftech/swing/blob/master/CONTRIBUTING.md">contributing.md</a>
+To join and contributes to this project, you can read our 👉 <a href="https://github.com/aliftech/swing/blob/master/CONTRIBUTING.md">contributing.md</a>
 
 ### Instalation
-Here is the instalation guide of swing UI <a href="https://github.com/aliftech/swing/blob/master/READMEVUE.md">Instalation.</a>
+Here is the instalation guide of swing UI 👉 <a href="https://github.com/aliftech/swing/blob/master/READMEVUE.md">Instalation.</a>
 
 ### Releases
 This project is not ready to releases and still under development. You can help to develop this project by contribute to this project or help us by funding this project.
