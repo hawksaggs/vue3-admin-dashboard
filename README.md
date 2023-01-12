@@ -26,60 +26,60 @@ Swing is build using these following frameworks:
 
 ### Features
 Here are some features of swing UI 👇:
-- Dashboard
-- <details> <summary>Layout</summary> 
+- ✔️ Dashboard
+- <details> <summary>✔️ Layout</summary> 
 
 
-    - Default Layout
-    - Top Navigation
-    - Bottom Navigation
+    - ✔️ Default Layout
+    - ✔️ Top Navigation
+    - ✔️ Bottom Navigation
  </details>
 
- - Blank Page
+ - ✔️ Blank Page
 
-- <details> <summary>Components</summary> 
+- <details> <summary>✔️ Components</summary> 
   
-    - Alert
-    - Article
-    - Avatar
-    - Badge
-    - Banner
-    - Calendar
-    - Carousel
-    - Chat Box
-    - Chart
-    - Color Picker
-    - Empty State
-    - Galery
-    - Pricing
-    - Statistic
-    - Tab
-    - Table
-    - Timeline
-    - User
+    - ✔️ Alert
+    - ✔️ Article
+    - ✔️ Avatar
+    - ✔️ Badge
+    - ✔️ Banner
+    - ✔️ Calendar
+    - ✔️Carousel
+    - ✔️ Chat Box
+    - ✔️ Chart
+    - ✔️ Color Picker
+    - ✔️ Empty State
+    - ✔️ Galery
+    - ✔️ Pricing
+    - ✔️ Statistic
+    - ✔️ Tab
+    - ✔️ Table
+    - ✔️ Timeline
+    - ✔️ User
   </details>
-- <details> <summary>Form</summary> 
+- <details> <summary>✔️ Form</summary> 
 
-    - Standard Form
-    - Advanced Form
-    - Editor
-    - Validation
-  </details>
-
-- <details> <summary>Authorization</summary> 
-
-    - Login
-    - Registration
-    - Forget Password
-    - Reset Password
+    - ✔️ Standard Form
+    - ✔️ Advanced Form
+    - ✔️ Editor
+    - ✔️ Validation
   </details>
 
-- <details> <summary>Errors</summary> 
+- <details> <summary>✔️ Authorization</summary> 
 
-    - 403
-    - 404
-    - 500
-    - 503
+    - ✔️ Login
+    - ✔️ Registration
+    - ✔️ Forget Password
+    - ✔️ Reset Password
+  </details>
+
+- <details> <summary>✔️ Errors</summary> 
+
+    - ✔️ 403
+    - ✔️ 404
+    - ✔️ 500
+    - ✔️ 503
   </details>
 
 ### Contibutes
