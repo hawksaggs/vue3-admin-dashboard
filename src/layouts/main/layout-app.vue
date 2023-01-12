@@ -278,7 +278,7 @@ export default {
                   url: '/registration'
                 },
                 {
-                  title: 'Forgot Password',
+                  title: 'Forget Password',
                   icon: 'mdi-circle-small',
                   url: '/forgot-password'
                 },
