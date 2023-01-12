@@ -1,6 +1,12 @@
 # Swing Admin Template
 
+<img src="https://github.com/aliftech/swing/blob/master/src/assets/logo/swing-light.png" />
+
 Swing is a free and open source admin template created with vuejs, vuetify 3 and vite. This project is aimed to help developer creating admin and dashboard UI fastly and easily.
+
+<img src="https://github.com/aliftech/swing/blob/master/src/assets/screen_shoot/Screenshot_1.png" />
+
+<br>
 
 ### Frameworks
 Swing is build using these following frameworks: 
