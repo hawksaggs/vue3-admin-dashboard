@@ -36,7 +36,7 @@ import successAlertComponent from "@/components/alert/success-alert-component.vu
 import dangerAlertComponent from "@/components/alert/danger-alert-component.vue";
 import warningAlertComponent from "@/components/alert/warning-alert-component.vue";
 import footerComponentVue from "@/components/footer/footer-component.vue";
-import TitleBarComponent from "@/components/dashboard/title-bar-component.vue";
+
 export default {
   components: {
     titleBar,
@@ -45,7 +45,6 @@ export default {
     dangerAlertComponent,
     warningAlertComponent,
     footerComponentVue,
-    TitleBarComponent,
   },
 };
 </script>

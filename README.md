@@ -81,3 +81,6 @@ To join and contributes to this project, you can read our <a href="https://githu
 
 ### Instalation
 Here is the instalation guide of swing UI <a href="https://github.com/aliftech/swing/blob/master/READMEVUE.md">Instalation.</a>
+
+### Releases
+This project is not ready to releases and still under development. You can help to develop this project by contribute to this project or help us by funding this project.
