@@ -90,3 +90,6 @@ Here is the instalation guide of swing UI 👉 <a href="https://github.com/alift
 
 ### Releases
 This project is not ready to releases and still under development. You can help to develop this project by contribute to this project or help us by funding this project.
+
+### Buy me a coffee ☕
+[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/aliftech/waitlist)
