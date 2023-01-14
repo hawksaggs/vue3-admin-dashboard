@@ -1,6 +1,6 @@
 <template>
-  <v-toolbar density="compact" title="Application" color="primary">
-    <v-breadcrumbs :items="items">
+  <v-toolbar density="compact" :title="title" color="primary">
+    <v-breadcrumbs :items="routes">
       <template v-slot:divider>
         <v-icon icon="mdi-chevron-right"></v-icon>
       </template>
@@ -10,25 +10,7 @@
 
 <script>
 export default {
-  data: () => ({
-    items: [
-      {
-        title: "Dashboard",
-        disabled: false,
-        href: "breadcrumbs_dashboard",
-      },
-      {
-        title: "Link 1",
-        disabled: false,
-        href: "breadcrumbs_link_1",
-      },
-      {
-        title: "Link 2",
-        disabled: true,
-        href: "breadcrumbs_link_2",
-      },
-    ],
-  }),
+  props: ["title", "routes"],
 };
 </script>
 

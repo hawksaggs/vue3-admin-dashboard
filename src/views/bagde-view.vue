@@ -1,7 +1,7 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
       <badgeComponent class="mb"></badgeComponent>
       <v-row>
         <v-col lg="col-6">
@@ -11,7 +11,7 @@
           <badgeThreeComponent class="mb"></badgeThreeComponent>
         </v-col>
       </v-row>
-      <footerComponentVue></footerComponentVue>
+      <footerComponentVue class="footer"></footerComponentVue>
     </v-container>
   </div>
 </template>
@@ -30,6 +30,23 @@ export default {
     badgeTwoComponent,
     badgeThreeComponent,
   },
+  data() {
+    return {
+      title: "Badge",
+      routes: [
+        {
+          title: "Components",
+          disabled: false,
+          href: "#",
+        },
+        {
+          title: "Badge",
+          disabled: false,
+          href: "badge",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -40,5 +57,8 @@ export default {
 .main-bg {
   background-color: rgb(227, 227, 221);
   height: 100%;
+}
+.footer {
+  margin-top: 140px;
 }
 </style>

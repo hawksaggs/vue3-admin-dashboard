@@ -1,7 +1,7 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
       <avatarComponent class="mb"></avatarComponent>
       <avatarInitial class="mb"></avatarInitial>
 
@@ -25,6 +25,23 @@ export default {
     avatarComponent,
     avatarInitial,
     footerComponentVue,
+  },
+  data() {
+    return {
+      title: "Avatar",
+      routes: [
+        {
+          title: "Components",
+          disabled: false,
+          href: "#",
+        },
+        {
+          title: "Avatar",
+          disabled: false,
+          href: "avatar",
+        },
+      ],
+    };
   },
 };
 </script>

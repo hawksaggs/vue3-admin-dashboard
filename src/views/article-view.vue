@@ -1,7 +1,7 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
 
       <v-row>
         <v-col cols="cols">
@@ -58,6 +58,23 @@ export default {
     styleArticleTwo,
     styleArticleThree,
     footerComponentVue,
+  },
+  data() {
+    return {
+      title: "Article",
+      routes: [
+        {
+          title: "Components",
+          disabled: false,
+          href: "#",
+        },
+        {
+          title: "Article",
+          disabled: false,
+          href: "article",
+        },
+      ],
+    };
   },
 };
 </script>

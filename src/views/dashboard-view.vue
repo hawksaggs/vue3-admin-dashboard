@@ -1,7 +1,7 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
       <v-row>
         <v-col cols="cols">
           <panelComponentVue
@@ -78,6 +78,18 @@ export default {
     trafficComponentVue,
     activityComponent,
     footerComponent,
+  },
+  data() {
+    return {
+      title: "Dashboard",
+      routes: [
+        {
+          title: "Dashboard",
+          disabled: false,
+          href: "",
+        },
+      ],
+    };
   },
 };
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
       <v-row>
         <v-col cols="cols">
           <infoAlertComponent></infoAlertComponent>
@@ -45,6 +45,23 @@ export default {
     dangerAlertComponent,
     warningAlertComponent,
     footerComponentVue,
+  },
+  data() {
+    return {
+      title: "Alert",
+      routes: [
+        {
+          title: "Components",
+          disabled: false,
+          href: "#",
+        },
+        {
+          title: "Alert",
+          disabled: false,
+          href: "alert",
+        },
+      ],
+    };
   },
 };
 </script>

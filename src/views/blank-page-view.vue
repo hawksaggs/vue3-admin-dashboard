@@ -1,11 +1,11 @@
 <template>
   <div class="main-bg">
     <v-container>
-      <titleBar class="mb"></titleBar>
+      <titleBar class="mb" :title="title" :routes="routes"></titleBar>
 
       <v-row>
         <v-col cols="cols">
-          <footerComponentVue></footerComponentVue>
+          <footerComponentVue class="footer"></footerComponentVue>
         </v-col>
       </v-row>
     </v-container>
@@ -20,6 +20,18 @@ export default {
     titleBar,
     footerComponentVue,
   },
+  data() {
+    return {
+      title: "Blank Page",
+      routes: [
+        {
+          title: "Blank Page",
+          disabled: false,
+          href: "blank-page",
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -30,5 +42,8 @@ export default {
 .main-bg {
   background-color: rgb(227, 227, 221);
   height: 100%;
+}
+.footer {
+  margin-top: 37%;
 }
 </style>
