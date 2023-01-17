@@ -10,6 +10,7 @@ import articleRouter from './page/article-router.js';
 import avatarRouter from './page/avatar-router.js';
 import bagdeRouter from './page/bagde-router.js';
 import carouselRouter from './page/carousel-router.js';
+import chatRouter from './page/chat-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -21,7 +22,8 @@ const routes = [
   ...articleRouter,
   ...avatarRouter,
   ...bagdeRouter,
-  ...carouselRouter
+  ...carouselRouter,
+  ...chatRouter
 ]
 
 const router = createRouter({
