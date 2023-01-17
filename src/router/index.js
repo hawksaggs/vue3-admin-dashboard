@@ -13,6 +13,7 @@ import carouselRouter from './page/carousel-router.js';
 import chatRouter from './page/chat-router.js';
 import chartRouter from './page/chart-router.js';
 import colorPickerRouter from './page/color-picker-router.js';
+import galeryRouter from './page/galery-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -27,7 +28,8 @@ const routes = [
   ...carouselRouter,
   ...chatRouter,
   ...chartRouter,
-  ...colorPickerRouter
+  ...colorPickerRouter,
+  ...galeryRouter
 ]
 
 const router = createRouter({
