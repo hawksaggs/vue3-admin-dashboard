@@ -166,11 +166,6 @@ export default {
                   url: '/badge'
                 },
                 {
-                  title: 'Calendar',
-                  icon: 'mdi-circle-small',
-                  url: '/calendar'
-                },
-                {
                   title: 'Carousel',
                   icon: 'mdi-circle-small',
                   url: '/carousel'
