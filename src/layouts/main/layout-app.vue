@@ -186,24 +186,9 @@ export default {
                   url: '/color-picker'
                 },
                 {
-                  title: 'Empty State',
-                  icon: 'mdi-circle-small',
-                  url: '/empty-state'
-                },
-                {
                   title: 'Galery',
                   icon: 'mdi-circle-small',
                   url: '/galery'
-                },
-                {
-                  title: 'Pricing',
-                  icon: 'mdi-circle-small',
-                  url: '/pricing'
-                },
-                {
-                  title: 'Statistic',
-                  icon: 'mdi-circle-small',
-                  url: '/statistic'
                 },
                 {
                   title: 'Tab',
@@ -220,11 +205,6 @@ export default {
                   icon: 'mdi-circle-small',
                   url: '/timeline'
                 },
-                {
-                  title: 'User',
-                  icon: 'mdi-circle-small',
-                  url: '/user'
-                }
               ]
             },
             {
