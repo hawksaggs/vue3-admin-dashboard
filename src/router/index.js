@@ -12,6 +12,7 @@ import bagdeRouter from './page/bagde-router.js';
 import carouselRouter from './page/carousel-router.js';
 import chatRouter from './page/chat-router.js';
 import chartRouter from './page/chart-router.js';
+import colorPickerRouter from './page/color-picker-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -25,7 +26,8 @@ const routes = [
   ...bagdeRouter,
   ...carouselRouter,
   ...chatRouter,
-  ...chartRouter
+  ...chartRouter,
+  ...colorPickerRouter
 ]
 
 const router = createRouter({
