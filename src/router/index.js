@@ -9,7 +9,6 @@ import alertRouter from './page/alert-router.js';
 import articleRouter from './page/article-router.js';
 import avatarRouter from './page/avatar-router.js';
 import bagdeRouter from './page/bagde-router.js';
-import bannerRouter from './page/banner-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -21,7 +20,6 @@ const routes = [
   ...articleRouter,
   ...avatarRouter,
   ...bagdeRouter,
-  ...bannerRouter
 ]
 
 const router = createRouter({
