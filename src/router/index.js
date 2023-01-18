@@ -16,6 +16,7 @@ import colorPickerRouter from './page/color-picker-router.js';
 import galeryRouter from './page/galery-router.js';
 import tabRouter from './page/tab-router.js';
 import tableRouter from './page/table-router.js';
+import timelineRouter from './page/timeline-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -33,7 +34,8 @@ const routes = [
   ...colorPickerRouter,
   ...galeryRouter,
   ...tabRouter,
-  ...tableRouter
+  ...tableRouter,
+  ...timelineRouter
 ]
 
 const router = createRouter({
