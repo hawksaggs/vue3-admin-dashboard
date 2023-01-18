@@ -16,6 +16,9 @@
                 <stdFormFour></stdFormFour>
             </v-col>
         </v-row>
+        <v-row>
+            <myFooter></myFooter>
+        </v-row>
     </v-container>
   </div>
 </template>
@@ -26,13 +29,15 @@ import stdFormOne from '@/components/form/standard-form/std-form-one-component.v
 import stdFormTwo from '@/components/form/standard-form/std-form-two-component.vue';
 import stdFormThree from '@/components/form/standard-form/std-form-three-component.vue';
 import stdFormFour from '@/components/form/standard-form/std-form-four-component.vue';
+import myFooter from '@/components/footer/footer-component.vue';
 export default {
     components: {
         titlebarComponent,
         stdFormOne,
         stdFormTwo,
         stdFormThree,
-        stdFormFour
+        stdFormFour,
+        myFooter
     },
     data: () => ({
         title: 'Standard Form',

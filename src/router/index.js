@@ -18,6 +18,7 @@ import tabRouter from './page/tab-router.js';
 import tableRouter from './page/table-router.js';
 import timelineRouter from './page/timeline-router.js';
 import standardFormRouter from './page/standard-form-router.js';
+import advancedFormRouter from './page/advanced-form-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -37,7 +38,8 @@ const routes = [
   ...tabRouter,
   ...tableRouter,
   ...timelineRouter,
-  ...standardFormRouter
+  ...standardFormRouter,
+  ...advancedFormRouter
 ]
 
 const router = createRouter({
