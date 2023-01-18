@@ -222,11 +222,6 @@ export default {
                   url: '/form-advanced'
                 },
                 {
-                  title: 'Editor',
-                  icon: 'mdi-circle-small',
-                  url: '/editor'
-                },
-                {
                   title: 'Validation',
                   icon: 'mdi-circle-small',
                   url: '/validation'

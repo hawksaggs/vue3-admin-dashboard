@@ -39,7 +39,7 @@ const routes = [
   ...tableRouter,
   ...timelineRouter,
   ...standardFormRouter,
-  ...advancedFormRouter
+  ...advancedFormRouter,
 ]
 
 const router = createRouter({

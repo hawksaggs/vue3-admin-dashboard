@@ -42,17 +42,17 @@ export default {
     data: () => ({
         title: 'Standard Form',
         routes: [
-                {
-                    title: "Form",
-                    disabled: false,
-                    href: "#",
-                },
-                {
-                    title: "Standard Form",
-                    disabled: false,
-                    href: "form-standard",
-                },
-            ],
+            {
+                title: "Form",
+                disabled: false,
+                href: "#",
+            },
+            {
+                title: "Standard Form",
+                disabled: false,
+                href: "form-standard",
+            },
+        ],
     })
 }
 </script>
