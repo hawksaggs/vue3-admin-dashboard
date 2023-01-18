@@ -15,6 +15,7 @@ import chartRouter from './page/chart-router.js';
 import colorPickerRouter from './page/color-picker-router.js';
 import galeryRouter from './page/galery-router.js';
 import tabRouter from './page/tab-router.js';
+import tableRouter from './page/table-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -31,7 +32,8 @@ const routes = [
   ...chartRouter,
   ...colorPickerRouter,
   ...galeryRouter,
-  ...tabRouter
+  ...tabRouter,
+  ...tableRouter
 ]
 
 const router = createRouter({
