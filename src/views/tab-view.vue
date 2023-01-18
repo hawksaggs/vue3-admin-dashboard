@@ -12,6 +12,9 @@
             <v-col lg="6" sm="12">
                 <tabThree></tabThree>
             </v-col>
+            <v-col lg="6" sm="12">
+                <tabFour></tabFour>
+            </v-col>
         </v-row>
         <div class="margin">
             <myFooter></myFooter>
@@ -25,6 +28,7 @@ import titlebar from '@/components/titlebar/titlebar-component.vue';
 import tabOne from '@/components/tab/tab-one-component.vue';
 import tabTwo from '@/components/tab/tab-two-component.vue';
 import tabThree from '@/components/tab/tab-three-component.vue';
+import tabFour from '@/components/tab/tab-four-component.vue';
 import myFooter from '@/components/footer/footer-component.vue';
 export default {
     components: {
@@ -32,6 +36,7 @@ export default {
         tabOne,
         tabTwo,
         tabThree,
+        tabFour,
         myFooter
     },
     data: () => {
