@@ -245,7 +245,7 @@ export default {
                 {
                   title: 'Forget Password',
                   icon: 'mdi-circle-small',
-                  url: '/forgot-password'
+                  url: '/forget-password'
                 },
                 {
                   title: 'Reset Password',
