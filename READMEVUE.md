@@ -1,5 +1,9 @@
 # base
 
+## Clone Project
+```
+git clone https://github.com/aliftech/swing.git
+```
 ## Project setup
 
 ```
