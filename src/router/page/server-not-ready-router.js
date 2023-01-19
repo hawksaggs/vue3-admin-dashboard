@@ -1,0 +1,6 @@
+export default [
+    {
+        path: '/503',
+        component: () => import('@/views/503-view.vue')
+    }
+]
