@@ -24,6 +24,7 @@ import loginRouter from './page/login-router.js';
 import registrationRouter from './page/registration-router.js';
 import forgetPasswordRouter from './page/forget-password-router.js';
 import resetPasswordRouter from './page/reset-password-router.js';
+import errorForbiddenRouter from './page/error-forbidden-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -49,7 +50,8 @@ const routes = [
   ...loginRouter,
   ...registrationRouter,
   ...forgetPasswordRouter,
-  ...resetPasswordRouter
+  ...resetPasswordRouter,
+  ...errorForbiddenRouter
 ]
 
 const router = createRouter({
