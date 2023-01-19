@@ -20,6 +20,7 @@ import timelineRouter from './page/timeline-router.js';
 import standardFormRouter from './page/standard-form-router.js';
 import advancedFormRouter from './page/advanced-form-router.js';
 import validationRouter from './page/validation-router.js';
+import loginRouter from './page/login-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -41,7 +42,8 @@ const routes = [
   ...timelineRouter,
   ...standardFormRouter,
   ...advancedFormRouter,
-  ...validationRouter
+  ...validationRouter,
+  ...loginRouter
 ]
 
 const router = createRouter({
