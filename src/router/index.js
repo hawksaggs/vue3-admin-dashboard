@@ -23,6 +23,7 @@ import validationRouter from './page/validation-router.js';
 import loginRouter from './page/login-router.js';
 import registrationRouter from './page/registration-router.js';
 import forgetPasswordRouter from './page/forget-password-router.js';
+import resetPasswordRouter from './page/reset-password-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -47,7 +48,8 @@ const routes = [
   ...validationRouter,
   ...loginRouter,
   ...registrationRouter,
-  ...forgetPasswordRouter
+  ...forgetPasswordRouter,
+  ...resetPasswordRouter
 ]
 
 const router = createRouter({
