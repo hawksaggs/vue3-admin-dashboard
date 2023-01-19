@@ -26,6 +26,7 @@ import forgetPasswordRouter from './page/forget-password-router.js';
 import resetPasswordRouter from './page/reset-password-router.js';
 import errorForbiddenRouter from './page/error-forbidden-router.js';
 import notFoundRouter from './page/not-found-router.js';
+import serverBreakRouter from './page/server-break-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -53,7 +54,8 @@ const routes = [
   ...forgetPasswordRouter,
   ...resetPasswordRouter,
   ...errorForbiddenRouter,
-  ...notFoundRouter
+  ...notFoundRouter,
+  ...serverBreakRouter
 ]
 
 const router = createRouter({
