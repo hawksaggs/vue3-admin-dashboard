@@ -43,26 +43,19 @@ Here are some features of swing UI 👇:
     - ✔️ Article
     - ✔️ Avatar
     - ✔️ Badge
-    - ✔️ Banner
-    - ✔️ Calendar
-    - ✔️Carousel
+    - ✔️ Carousel
     - ✔️ Chat Box
     - ✔️ Chart
     - ✔️ Color Picker
-    - ✔️ Empty State
     - ✔️ Galery
-    - ✔️ Pricing
-    - ✔️ Statistic
     - ✔️ Tab
     - ✔️ Table
     - ✔️ Timeline
-    - ✔️ User
   </details>
 - <details> <summary>✔️ Form</summary> 
 
     - ✔️ Standard Form
     - ✔️ Advanced Form
-    - ✔️ Editor
     - ✔️ Validation
   </details>
 
