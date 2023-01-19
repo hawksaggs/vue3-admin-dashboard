@@ -1,88 +1,31 @@
-# Swing Admin Template
+# Swing - A Modern Admin Template for Vue.js
 
-<img src="https://github.com/aliftech/swing/blob/master/src/assets/logo/swing-light.png" />
+![Swing](https://github.com/aliftech/swing/blob/master/src/assets/logo/swing-light.png)
 
-Swing is a free and open source admin template created with vuejs, vuetify 3 and vite. This project is aimed to help developer creating admin and dashboard UI fastly and easily.
+Are you tired of using outdated and clunky admin templates for your web projects? Look no further than Swing, the ultimate admin template for Vue.js.
 
-<img src="https://github.com/aliftech/swing/blob/master/src/assets/screen_shoot/Screenshot_1.png" />
+Built with the latest web technologies, Swing offers a smooth and responsive user experience that is both visually pleasing and easy to navigate. The template features a clean and minimalist design that is easy on the eyes, making it an ideal choice for business, finance, and other professional applications.
 
-<br>
+## Frameworks
+Swing is built using the following frameworks:
+- Vue.js
+- Vuetify
+- Vite
 
-### Frameworks
-Swing is build using these following frameworks: 
+## Features
+- Dashboard
+- Layout options (default, top navigation, bottom navigation)
+- Blank page template
+- Components (alerts, articles, avatars, badges, carousels, chat boxes, charts, color picker, gallery, tabs, tables, timelines)
+- Forms (standard, advanced, validation)
+- Authorization pages (login, registration, forget password, reset password)
+- Error pages (403, 404, 500, 503)
 
-![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Vuetify](https://img.shields.io/badge/Vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=AEDDFF)
+## Installation
+To install Swing, please refer to the [installation guide](https://github.com/aliftech/swing/blob/master/READMEVUE.md).
 
-### Programming Languages
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+## Contributing
+We welcome contributions to Swing! Please read our [contributing guidelines](https://github.com/aliftech/swing/blob/master/CONTRIBUTING.md) for more information.
 
-### License
-[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
-
-### Features
-Here are some features of swing UI 👇:
-- ✔️ Dashboard
-- <details> <summary>✔️ Layout</summary> 
-
-
-    - ✔️ Default Layout
-    - ✔️ Top Navigation
-    - ✔️ Bottom Navigation
- </details>
-
- - ✔️ Blank Page
-
-- <details> <summary>✔️ Components</summary> 
-  
-    - ✔️ Alert
-    - ✔️ Article
-    - ✔️ Avatar
-    - ✔️ Badge
-    - ✔️ Carousel
-    - ✔️ Chat Box
-    - ✔️ Chart
-    - ✔️ Color Picker
-    - ✔️ Galery
-    - ✔️ Tab
-    - ✔️ Table
-    - ✔️ Timeline
-  </details>
-- <details> <summary>✔️ Form</summary> 
-
-    - ✔️ Standard Form
-    - ✔️ Advanced Form
-    - ✔️ Validation
-  </details>
-
-- <details> <summary>✔️ Authorization</summary> 
-
-    - ✔️ Login
-    - ✔️ Registration
-    - ✔️ Forget Password
-    - ✔️ Reset Password
-  </details>
-
-- <details> <summary>✔️ Errors</summary> 
-
-    - ✔️ 403
-    - ✔️ 404
-    - ✔️ 500
-    - ✔️ 503
-  </details>
-
-### Contibutes
-To join and contributes to this project, you can read our 👉 <a href="https://github.com/aliftech/swing/blob/master/CONTRIBUTING.md">contributing.md</a>
-
-### Instalation
-Here is the instalation guide of swing UI 👉 <a href="https://github.com/aliftech/swing/blob/master/READMEVUE.md">Instalation.</a>
-
-### Releases
-This project is not ready to releases and still under development. You can help to develop this project by contribute to this project or help us by funding this project.
-
-### Buy me a coffee ☕
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/aliftech/waitlist)
+## License
+Swing is licensed under the [MIT license](./LICENSE).
