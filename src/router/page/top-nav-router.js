@@ -2,6 +2,9 @@ export default [
     {
         path: '/top-nav',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Swing :: Top Navigation'
+        },
         children: [
             {
                 path: '',

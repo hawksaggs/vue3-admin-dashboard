@@ -2,6 +2,9 @@ export default [
     {
         path: '/chat-box',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Swing :: Chat Component'
+        },
         children: [
             {
                 path: '',

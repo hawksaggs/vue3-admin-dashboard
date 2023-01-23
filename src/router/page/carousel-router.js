@@ -2,6 +2,9 @@ export default [
     {
         path: '/carousel',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Swing :: Carousel Component'
+        },
         children: [
             {
                 path: '',

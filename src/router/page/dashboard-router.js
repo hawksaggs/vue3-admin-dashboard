@@ -2,6 +2,9 @@ export default [
     {
         path: '/',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Welcome to Dashboard'
+        },
         children: [
             {
               path: '',

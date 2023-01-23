@@ -2,6 +2,9 @@ export default [
     {
         path: '/blank-page',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Swing :: Blank Page'
+        },
         children: [
             {
                 path: '',

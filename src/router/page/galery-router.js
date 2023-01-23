@@ -2,6 +2,9 @@ export default [
     {
         path: '/galery',
         component: () => import('@/layouts/main/layout-bar.vue'),
+        meta: {
+            title: 'Swing :: Galery Component'
+        },
         children: [
             {
                 path: '',
