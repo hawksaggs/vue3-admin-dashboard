@@ -99,6 +99,10 @@
             <v-icon>mdi-message</v-icon>
           </v-badge>
         </v-btn>
+         <v-btn
+        :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
+        @click="onClick"
+      >Toggle Theme</v-btn>
       </template>
     </v-app-bar>
   </div>
@@ -282,6 +286,11 @@ export default {
             }
           ]
         }
+    },
+    methods: {
+      onClick() {
+        this.$emit("tema")
+      }
     }
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
-    <v-app>
-        <layoutAppVue></layoutAppVue>
+    <v-app :theme="theme">
+        <layoutAppVue v-on:tema="tema"></layoutAppVue>
         <layoutViewVue></layoutViewVue>
     </v-app>
 </template>
@@ -12,6 +12,16 @@
         components: {
             layoutAppVue,
             layoutViewVue
+        },
+        data() {
+            return {
+                theme: 'light'
+            }
+        },
+        methods: {
+            tema() {
+                this.theme = 'dark'
+            }
         }
     }
 </script>
