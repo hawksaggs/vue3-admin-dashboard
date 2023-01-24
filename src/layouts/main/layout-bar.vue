@@ -1,5 +1,5 @@
 <template>
-    <v-app :theme="theme">
+    <v-app :theme="is_dark ? 'dark' : 'light'">
         <layoutAppVue v-on:tema="tema"></layoutAppVue>
         <layoutViewVue></layoutViewVue>
     </v-app>
@@ -15,12 +15,13 @@
         },
         data() {
             return {
-                theme: 'light'
+                theme: 'light',
+                is_dark: false
             }
         },
         methods: {
             tema() {
-                this.theme = 'dark'
+                this.is_dark = this.is_dark ? false : true;
             }
         }
     }
