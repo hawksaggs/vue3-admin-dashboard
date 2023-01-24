@@ -5,6 +5,7 @@
 
 
 ![Swing](https://github.com/aliftech/swing/blob/master/src/assets/screen_shoot/Screenshot_1.png)
+![Swing](https://github.com/aliftech/swing/blob/master/src/assets/screen_shoot/Screenshot_dark_mode.png)
 
 Are you tired of using generic and bland admin templates for your web projects? Introducing Swing, the modern and sleek admin template built with Vue.js.
 
