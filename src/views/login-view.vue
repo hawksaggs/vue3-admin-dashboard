@@ -1,75 +1,82 @@
 <template>
-  <div class="main-bg">
-        <v-card
-            elevation="2"
-            class="card-login"
-        >
-        
-            <v-card-title class="d-flex justify-center">
-                <img src="../assets/logo/swing-light.png" class="login-logo" alt="Logo Bahtera Adhiguna">
-            </v-card-title>
-
-            <div class="d-flex justify-center mb">
-                <v-btn prepend-icon="mdi-google" variant="tonal" color="red" size="small">
-                    SignIn
-                </v-btn>
-                <v-btn prepend-icon="mdi-facebook" variant="tonal" class="btn-vendor" color="blue" size="small">
-                    SignIn
-                </v-btn>
-            </div>
-            
-            <div class="d-flex justify-center mb">
-                <b>OR</b>
-            </div>
-
-            <v-form
-                ref="form"
-                v-model="valid"
-                lazy-validation
-                class="form-width"
+  <v-app :theme="theme">
+        <div class="main-bg">
+            <v-card
+                elevation="2"
+                class="card-login"
             >
             
-                <div class="form-login">
-                    <v-text-field
-                        label="Username"
-                        density="compact"
-                        variant="underlined"
-                        color="primary"
-                        v-model="login.username"
-                        :rules="usernameRules"
-                        type="text"
-                        required
-                    ></v-text-field>
+                <v-card-title class="d-flex justify-center">
+                    <div v-if="theme === 'light'">
+                        <img src="../assets/logo/swing-light.png" class="login-logo" alt="Logo Bahtera Adhiguna">
+                    </div>
+                    <div v-else>
+                        <img src="../assets/logo/swing.png" class="login-logo" alt="Logo Bahtera Adhiguna">
+                    </div>
+                </v-card-title>
 
-                    <v-text-field
-                        density="compact"
-                        variant="underlined"
-                        color="primary"
-                        label="Password"
-                        v-model="login.password"
-                        :rules="passwordRules"
-                        :append-icon="showPass ? 'mdi-eye' : 'mdi-eye-off'"
-                        @click:append="showPass = !showPass"
-                        :type="showPass ? 'text' : 'password'"
-                        required
-                    ></v-text-field>
-                </div>
-
-
-                <div class="login-button">
-                    <v-btn
-                        class="ma-2"
-                        color="primary"
-                    >
-                        Masuk
+                <div class="d-flex justify-center mb">
+                    <v-btn prepend-icon="mdi-google" variant="tonal" color="red" size="small">
+                        SignIn
+                    </v-btn>
+                    <v-btn prepend-icon="mdi-facebook" variant="tonal" class="btn-vendor" color="blue" size="small">
+                        SignIn
                     </v-btn>
                 </div>
-            
-            </v-form>
+                
+                <div class="d-flex justify-center mb">
+                    <b>OR</b>
+                </div>
 
-        </v-card>
+                <v-form
+                    ref="form"
+                    v-model="valid"
+                    lazy-validation
+                    class="form-width"
+                >
+                
+                    <div class="form-login">
+                        <v-text-field
+                            label="Username"
+                            density="compact"
+                            variant="underlined"
+                            color="primary"
+                            v-model="login.username"
+                            :rules="usernameRules"
+                            type="text"
+                            required
+                        ></v-text-field>
 
-  </div>
+                        <v-text-field
+                            density="compact"
+                            variant="underlined"
+                            color="primary"
+                            label="Password"
+                            v-model="login.password"
+                            :rules="passwordRules"
+                            :append-icon="showPass ? 'mdi-eye' : 'mdi-eye-off'"
+                            @click:append="showPass = !showPass"
+                            :type="showPass ? 'text' : 'password'"
+                            required
+                        ></v-text-field>
+                    </div>
+
+
+                    <div class="login-button">
+                        <v-btn
+                            class="ma-2"
+                            color="primary"
+                        >
+                            Masuk
+                        </v-btn>
+                    </div>
+                
+                </v-form>
+
+            </v-card>
+
+    </div>
+  </v-app>
 </template>
 
 <script>
@@ -89,7 +96,8 @@ export default {
           v => !!v || 'Password harus diisi',
         ],
         valid: true,
-        token: ''
+        token: '',
+        theme: localStorage.getItem('theme')
       }
     },
 
