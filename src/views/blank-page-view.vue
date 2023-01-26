@@ -44,6 +44,6 @@ export default {
   height: 100%;
 }
 .footer {
-  margin-top: 37%;
+  margin-top: 57%;
 }
 </style>

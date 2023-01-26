@@ -21,7 +21,7 @@
               </template>
 
               <v-list min-width="200" class="list">
-                <v-list-item>
+                <v-list-item @click="toProfile">
                   <v-list-item-title>
                     <v-icon>mdi-account</v-icon>
                     Profile
@@ -290,6 +290,10 @@ export default {
     methods: {
       onClick() {
         this.$emit("tema")
+      },
+      
+      toProfile() {
+        this.$router.push('/profile')
       }
     }
 }
