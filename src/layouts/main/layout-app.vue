@@ -100,9 +100,9 @@
           </v-badge>
         </v-btn>
          <v-btn
-        :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
-        @click="onClick"
-      >Toggle Theme</v-btn>
+          :prepend-icon="icon"
+          @click="onClick"
+      ></v-btn>
       </template>
     </v-app-bar>
   </div>
@@ -284,16 +284,37 @@ export default {
                 }
               ]
             }
-          ]
+          ],
+          icon: '',
+          is_night: null
         }
+    },
+    mounted() {
+      this.getIcon();
     },
     methods: {
       onClick() {
-        this.$emit("tema")
+        this.$emit("tema");
+        this.is_night = !this.is_night;
+        if(this.is_night === true) {
+          this.icon = 'mdi mdi-weather-night';
+        } else {
+          this.icon = 'mdi mdi-weather-sunny';
+        }
       },
       
       toProfile() {
         this.$router.push('/profile')
+      },
+
+      getIcon() {
+        if(localStorage.getItem('theme') === 'dark') {
+          this.is_night = true;
+          this.icon = 'mdi mdi-weather-sunny';
+        } else {
+          this.is_night = false;
+          this.icon = 'mdi mdi-weather-night';
+        }
       }
     }
 }
