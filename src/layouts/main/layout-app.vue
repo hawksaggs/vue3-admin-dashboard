@@ -301,6 +301,7 @@ export default {
         } else {
           this.icon = 'mdi mdi-weather-sunny';
         }
+        localStorage.setItem('icon', this.icon);
       },
       
       toProfile() {
