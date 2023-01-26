@@ -1,5 +1,5 @@
 <template>
-    <v-app :theme="is_dark ? 'dark' : 'light'">
+    <v-app :theme="theme">
         <layoutAppVue v-on:tema="tema"></layoutAppVue>
         <layoutViewVue></layoutViewVue>
     </v-app>
@@ -19,9 +19,25 @@
                 is_dark: false
             }
         },
+        mounted() {
+            this.getTheme()
+        },  
         methods: {
             tema() {
                 this.is_dark = this.is_dark ? false : true;
+                if(this.is_dark === true) {
+                    this.theme = 'dark';
+                    this.themeStorage();
+                } else {
+                    this.theme = 'light';
+                    this.themeStorage();
+                }
+            },
+            themeStorage() {
+                localStorage.setItem('theme', this.theme);
+            },
+            getTheme() {
+                this.theme = localStorage.getItem('theme');
             }
         }
     }
