@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card elevation="4">
       <v-card-title>Standard Form</v-card-title>
       <v-container>
           <v-text-field label="First Name" variant="underlined"></v-text-field>

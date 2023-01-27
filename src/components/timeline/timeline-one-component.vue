@@ -1,5 +1,5 @@
 <template>
-   <v-card>
+   <v-card elevation="4">
         <v-container>
             <v-timeline direction="horizontal">
                 <v-timeline-item dot-color="primary">

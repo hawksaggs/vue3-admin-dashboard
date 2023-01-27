@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>Initial Avatar</v-card-title>
     <v-component>
         <div class="d-flex align-center justify-space-around mb">

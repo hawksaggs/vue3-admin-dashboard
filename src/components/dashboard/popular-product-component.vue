@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>Popular Product</v-card-title>
     <v-list density="compact">
 

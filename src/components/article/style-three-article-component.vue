@@ -4,6 +4,7 @@
         <p>Secret</p>
     </div>
     <v-card
+        elevation="4"
     >
         <v-img
             class="align-end text-white"

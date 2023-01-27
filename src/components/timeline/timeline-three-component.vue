@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-container>
         <v-card-title>Timeline</v-card-title>
         <v-timeline side="end">

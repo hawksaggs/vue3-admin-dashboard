@@ -1,5 +1,5 @@
 <template>
-  <div class="main-bg">
+  <div>
     <v-container>
       <topNavigationComponentVue></topNavigationComponentVue>
 

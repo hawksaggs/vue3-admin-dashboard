@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>User Data</v-card-title>
     <v-container>
         <v-timeline side="end" density="compact">

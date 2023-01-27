@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>Sales Chart</v-card-title>
     <Bar :data="data" />
   </v-card>

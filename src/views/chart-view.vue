@@ -1,5 +1,5 @@
 <template>
-  <div class="main-bg">
+  <div>
     <v-container>
         <titlebar :title="title" :routes="routes" class="mb"></titlebar>
         <v-row>

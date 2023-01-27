@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>Most Popular Programming Language</v-card-title>
     <Doughnut :data="data" :options="options" />
   </v-card>

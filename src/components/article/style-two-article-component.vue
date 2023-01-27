@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>News Title</v-card-title>
     <v-card-subtitle>Jakarta, 28 Desember 2022</v-card-subtitle>
     <v-img

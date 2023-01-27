@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-container>
         <v-row>
             <v-col lg="3" sm="12" class="d-flex justify-center">

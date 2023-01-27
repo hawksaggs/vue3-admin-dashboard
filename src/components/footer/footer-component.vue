@@ -1,5 +1,5 @@
 <template>
-  <v-footer>
+  <v-footer elevation="4">
     <v-row justify="center" no-gutters>
       Make with <v-icon>mdi-heart</v-icon> by <b>Swing Developer</b>
       <v-spacer></v-spacer>

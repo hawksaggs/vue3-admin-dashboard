@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-color-picker></v-color-picker>
   </v-card>
 </template>

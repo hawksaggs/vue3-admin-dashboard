@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-container class="d-flex justify-center">
       <v-badge color="success" offset-y="70" offset-x="18" content="online">
         <v-avatar size="100">

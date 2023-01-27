@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-tabs
       v-model="tab"
       bg-color="primary"

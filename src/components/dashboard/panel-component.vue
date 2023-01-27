@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title class="text-h5">
         <v-icon>{{ icon }}</v-icon>
         {{ title }}

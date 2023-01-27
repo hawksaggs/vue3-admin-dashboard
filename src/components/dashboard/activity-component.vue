@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>User Activity</v-card-title>
     <v-list lines="two">
         <v-list-item

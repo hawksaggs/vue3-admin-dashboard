@@ -1,5 +1,5 @@
 <template>
-  <v-card>
+  <v-card elevation="4">
     <v-card-title>Reference Traffict</v-card-title>
     <v-list>
         <v-list-item>

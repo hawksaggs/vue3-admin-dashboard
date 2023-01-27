@@ -7,7 +7,7 @@
             Wonder Age
         </v-container>
     </v-toolbar>
-    <v-card color="#F5F5F5">
+    <v-card color="#F5F5F5" elevation="4">
         <v-responsive
             class="overflow-y-auto"
             max-height="400"
