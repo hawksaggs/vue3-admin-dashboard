@@ -15,6 +15,7 @@
     "chart.js": "^4.1.1",
     "core-js": "^3.8.3",
     "roboto-fontface": "*",
+    "trim": ">=0.0.3",
     "vue": "^3.2.13",
     "vue-chartjs": "^5.1.0",
     "vue-router": "^4.0.0",
@@ -35,6 +36,7 @@
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
     "sass": "^1.55.0",
+    "trim": ">=0.0.3",
     "vite": "^3.1.9",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vue-loader": "^16.8.3"
