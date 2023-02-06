@@ -11,6 +11,7 @@
   "dependencies": {
     "@mdi/font": "7.0.96",
     "chart.js": "^4.1.1",
+    "commitizen": "^4.3.0",
     "core-js": "^3.8.3",
     "glob-parent": ">=5.1.2",
     "husky": "^8.0.3",
@@ -36,5 +37,10 @@
     "vite": "^3.1.9",
     "vite-plugin-vuetify": "^1.0.0-alpha.12",
     "vue-loader": "^16.8.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
