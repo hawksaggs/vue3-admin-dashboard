@@ -78,13 +78,6 @@
               ></v-list-item>
           </v-list-group>
         </v-list>
-        <v-list>
-          <v-list-item
-            prepend-icon="mdi-download"
-            title="Download"
-            href="https://github.com/aliftech/swing"
-          ></v-list-item>
-        </v-list>
     </v-navigation-drawer>
 
     <v-app-bar
@@ -106,10 +99,14 @@
             <v-icon>mdi-message</v-icon>
           </v-badge>
         </v-btn>
-         <v-btn
-          :prepend-icon="icon"
-          @click="onClick"
-      ></v-btn>
+        <v-btn
+            :prepend-icon="icon"
+            @click="onClick"
+        ></v-btn>
+        <a href="https://github.com/aliftech/swing">
+          <v-btn
+          >Download</v-btn>
+        </a>
       </template>
     </v-app-bar>
   </div>
