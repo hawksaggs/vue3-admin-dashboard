@@ -78,6 +78,13 @@
               ></v-list-item>
           </v-list-group>
         </v-list>
+        <v-list>
+          <v-list-item
+            prepend-icon="mdi-download"
+            title="Download"
+            href="https://github.com/aliftech/swing"
+          ></v-list-item>
+        </v-list>
     </v-navigation-drawer>
 
     <v-app-bar
@@ -284,11 +291,6 @@ export default {
                 }
               ]
             },
-            {
-              title: 'Download',
-              icon: 'mdi-download',
-              url: 'https://github.com/aliftech/swing'
-            }
           ],
           icon: '',
           is_night: null
