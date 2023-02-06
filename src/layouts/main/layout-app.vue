@@ -283,6 +283,11 @@ export default {
                   url: '/503'
                 }
               ]
+            },
+            {
+              title: 'Download',
+              icon: 'mdi-download',
+              url: 'https://github.com/aliftech/swing'
             }
           ],
           icon: '',
