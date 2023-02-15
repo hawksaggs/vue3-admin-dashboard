@@ -87,7 +87,7 @@
         <v-list-item
           prepend-icon="mdi mdi-currency-usd"
           title="Donate"
-          href="https://teer.id/wahyu krisna aji"
+          href="https://trakteer.id/wahyu%20krisna%20aji"
           target="__blank"
         ></v-list-item>
       </v-list>
