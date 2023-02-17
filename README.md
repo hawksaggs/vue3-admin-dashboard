@@ -36,3 +36,13 @@ We are always looking for contributions to improve Swing. Check out our [contrib
 
 ## License
 Swing is open-source and licensed under the [MIT license](./LICENSE).
+
+## Donations
+
+If you find this project useful and would like to support its continued development, please consider making a donation. Your donation will help cover the costs of hosting, development tools, and other expenses associated with maintaining this project.
+
+You can make a one-time donation via [Trakteer.id](https://trakteer.id). 
+
+Trakteer.id Donation: [![Donate](https://trakteer.id/images/mix/navbar-logo-2.png)](https://trakteer.id/wahyu%20krisna%20aji/link)
+
+Thank you for your support!
