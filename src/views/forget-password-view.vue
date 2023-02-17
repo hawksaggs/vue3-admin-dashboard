@@ -40,7 +40,6 @@ export default {
 
 <style scoped>
 .main-bg {
-  background-color: rgb(227, 227, 221);
   height: 500px;
 }
 .flex-container {
