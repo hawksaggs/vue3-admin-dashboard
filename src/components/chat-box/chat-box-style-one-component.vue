@@ -7,7 +7,7 @@
             Wonder Age
         </v-container>
     </v-toolbar>
-    <v-card color="#F5F5F5" elevation="4">
+    <v-card elevation="4">
         <v-responsive
             class="overflow-y-auto"
             max-height="400"
@@ -52,7 +52,7 @@
 
             </v-lazy>
         </v-responsive>
-        <v-toolbar color="white">
+        <v-toolbar>
             <v-container>
                 <v-text-field
                     :prepend-icon="icon"
