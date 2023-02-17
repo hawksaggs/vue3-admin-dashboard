@@ -105,6 +105,10 @@
                     </v-container>
                 
                 </v-form>
+
+                <v-card-actions class="footer d-flex justify-center">
+                    Already have an account ? <a href="login" color="primary"> <b> Login now</b></a>
+                </v-card-actions>
     
             </v-card>
     
@@ -136,7 +140,6 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgb(227, 227, 221);
     padding: 120px 0px;
   }
   .margin {
@@ -174,4 +177,9 @@
   .btn-vendor {
       margin-left: 10px;
   }
+
+  .footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
 </style>

@@ -5,34 +5,17 @@
                 elevation="2"
                 class="card-login"
             >
-            
-                <v-card-title class="d-flex justify-center">
-                    <div v-if="theme === 'light'">
-                        <img src="../assets/logo/swing-light.png" class="login-logo" alt="Logo Bahtera Adhiguna">
-                    </div>
-                    <div v-else>
-                        <img src="../assets/logo/swing.png" class="login-logo" alt="Logo Bahtera Adhiguna">
-                    </div>
-                </v-card-title>
-
-                <div class="d-flex justify-center mb">
-                    <v-btn prepend-icon="mdi-google" variant="tonal" color="red" size="small">
-                        SignIn
-                    </v-btn>
-                    <v-btn prepend-icon="mdi-facebook" variant="tonal" class="btn-vendor" color="blue" size="small">
-                        SignIn
-                    </v-btn>
-                </div>
-                
-                <div class="d-flex justify-center mb">
-                    <b>OR</b>
-                </div>
+                <v-container>
+                    <v-card color="primary" class="mb">
+                        <v-card-title class="text-h5">Login</v-card-title>
+                    </v-card>
+                </v-container>
 
                 <v-form
                     ref="form"
                     v-model="valid"
                     lazy-validation
-                    class="form-width"
+                    class="form-width mt-5"
                 >
                 
                     <div class="form-login">
@@ -73,6 +56,23 @@
                 
                 </v-form>
 
+                <div class="d-flex justify-center mt-5">
+                    <b>OR</b>
+                </div>
+
+                <div class="d-flex justify-center mb">
+                    <v-btn prepend-icon="mdi-google" variant="tonal" color="red" size="small">
+                        SignIn
+                    </v-btn>
+                    <v-btn prepend-icon="mdi-facebook" variant="tonal" class="btn-vendor" color="blue" size="small">
+                        SignIn
+                    </v-btn>
+                </div>
+
+                <v-card-actions class="footer d-flex justify-center">
+                    Not a member ? <a href="registration" color="primary"> <b>Sign up now</b></a>
+                </v-card-actions>
+
             </v-card>
 
     </div>
@@ -106,7 +106,7 @@ export default {
 
 <style scoped>
 .mb {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 .main-bg {
   display: flex;
@@ -114,7 +114,6 @@ export default {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color: rgb(227, 227, 221);
   padding: 120px 0px;
 }
 .margin {
@@ -150,5 +149,9 @@ export default {
 }
 .btn-vendor {
     margin-left: 10px;
+}
+.footer {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 </style>
