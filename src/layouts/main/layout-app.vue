@@ -291,6 +291,11 @@ export default {
             },
           ],
         },
+        {
+          title: "Swipper",
+          icon: "mdi-view-carousel",
+          url: "/swipper",
+        },
       ],
       icon: "",
       is_night: null,

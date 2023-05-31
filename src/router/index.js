@@ -29,6 +29,7 @@ import notFoundRouter from './page/not-found-router.js';
 import serverBreakRouter from './page/server-break-router.js';
 import serverNotReadyRouter from './page/server-not-ready-router.js';
 import profileRouter from './page/profile-router.js';
+import swipperRouter from './page/swipper-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -59,7 +60,8 @@ const routes = [
   ...notFoundRouter,
   ...serverBreakRouter,
   ...serverNotReadyRouter,
-  ...profileRouter
+  ...profileRouter,
+  ...swipperRouter
 ];
 
 const router = createRouter({
