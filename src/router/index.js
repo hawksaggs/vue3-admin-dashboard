@@ -30,6 +30,7 @@ import serverBreakRouter from './page/server-break-router.js';
 import serverNotReadyRouter from './page/server-not-ready-router.js';
 import profileRouter from './page/profile-router.js';
 import swipperRouter from './page/swipper-router.js';
+import productRouter from './page/product-router.js';
 
 const routes = [
   ...dashboardRouter,
@@ -61,7 +62,8 @@ const routes = [
   ...serverBreakRouter,
   ...serverNotReadyRouter,
   ...profileRouter,
-  ...swipperRouter
+  ...swipperRouter,
+  ...productRouter
 ];
 
 const router = createRouter({

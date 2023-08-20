@@ -16,9 +16,9 @@
                 <advancedFormFour></advancedFormFour>
             </v-col>
         </v-row>
-        <v-row>
+        <!-- <v-row>
             <myFooter></myFooter>
-        </v-row>
+        </v-row> -->
     </v-container>
   </div>
 </template>

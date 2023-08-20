@@ -2,16 +2,19 @@
     <v-app :theme="theme">
         <layoutAppVue v-on:tema="tema"></layoutAppVue>
         <layoutViewVue></layoutViewVue>
+        <footerViewVue></footerViewVue>
     </v-app>
 </template>
 
 <script>
     import layoutAppVue from './layout-app.vue';
     import layoutViewVue from './layout-view.vue';
+    import footerViewVue from '@/components/footer/footer-component.vue';
     export default {
         components: {
             layoutAppVue,
-            layoutViewVue
+            layoutViewVue,
+            footerViewVue
         },
         data() {
             return {
